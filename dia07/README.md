@@ -1,4 +1,4 @@
-# Dia 07 – Laser Lab
+# Dia 07 – Laboratories
 
 **1) ¿Por qué se ha elegido este problema?** 
 
