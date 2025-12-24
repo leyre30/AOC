@@ -1,4 +1,11 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <unordered_map>
+#include <vector>
+#include <string>
+#include <sstream>
+#include <array>
+#include <functional>
+
 using namespace std;
 
 using ll = long long;
@@ -27,8 +34,7 @@ int main() {
         }
     }
 
-   // parte 1
-   // dp[u] = numero de caminos desde u hasta out
+    // parte 1
     unordered_map<string, ll> dp1;
 
     function<ll(const string&)> dfs1 = [&](const string& u) -> ll {
@@ -45,10 +51,7 @@ int main() {
 
     ll res_parte1 = dfs1("you");
 
-   // parte 2
-   // dp[u][mask]:
-    // mask bit 0, pasado por dac
-    // mask bit 1, pasado por fft
+    // parte 2
     unordered_map<string, array<ll, 4>> dp2;
 
     function<ll(const string&, int)> dfs2 = [&](const string& u, int mask) -> ll {
