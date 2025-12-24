@@ -1,6 +1,10 @@
 # Dia 05 – Cafeteria
 
+<<<<<<< HEAD
 **1) ¿Por qué se ha elegido este problema?**  
+=======
+**1) ¿Por qué se ha elegido este problema?** 
+>>>>>>> 7188865 (Actualizar dias 2, 5, 7 y 11 y readmes)
 
 Hemos elegido este problema porque trabaja con rangos de números que pueden solaparse, lo que encaja muy bien con el uso de un árbol para organizar y procesar los datos de forma ordenada.
 
@@ -11,3 +15,7 @@ Se emplea un árbol binario de búsqueda (BST) implementado desde cero. Cada nod
 **3) ¿Cómo se ha abordado la resolución del problema?**
 
 Primero se insertan los intervalos en el BST. Después, mediante un recorrido inorden, se obtienen los intervalos ordenados y se fusionan los solapamientos. Con los intervalos ya fusionados, se comprueba qué identificadores pertenecen a la unión de rangos.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7188865 (Actualizar dias 2, 5, 7 y 11 y readmes)

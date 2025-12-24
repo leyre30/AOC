@@ -13,3 +13,7 @@ No se incluyen todos los días del calendario, sino solo aquellos que consideram
 
 Cada problema se encuentra en su carpeta correspondiente (diaXX/) e incluye el código fuente, el fichero de entrada y un pequeño README explicando el enfoque seguido.
 Hemos priorizado soluciones claras y bien estructuradas frente a resolver un mayor número de problemas sin aportar nuevas ideas.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7188865 (Actualizar dias 2, 5, 7 y 11 y readmes)
