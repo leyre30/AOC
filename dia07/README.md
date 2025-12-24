@@ -11,7 +11,3 @@ Se utiliza una cola para realizar un recorrido tipo BFS y una matriz de visitado
 **3) ¿Cómo se ha abordado la resolución del problema?**
 
 El rayo comienza en la posición marcada como S y avanza hacia abajo. Cuando encuentra un divisor (^), se generan dos nuevos rayos que se añaden a la cola. El algoritmo continúa procesando rayos hasta que todos salen de la rejilla o se detienen. Durante el proceso se lleva la cuenta de cuántas veces se produce una división.
-<<<<<<< HEAD
-=======
-
->>>>>>> 7188865 (Actualizar dias 2, 5, 7 y 11 y readmes)
