@@ -11,7 +11,3 @@ Se emplea una tabla hash, implementada manualmente con encadenamiento. Además, 
 **3) ¿Cómo se ha abordado la resolución del problema?**
 
 Antes de evaluar un identificador, se comprueba si ya está almacenado en la tabla hash. Si no lo está, se calculan las condiciones de la parte 1 y de la parte 2, se guardan los resultados y se acumulan las sumas correspondientes. De esta forma se evitan comprobaciones repetidas y se mejora la eficiencia de la solución.
-<<<<<<< HEAD
-=======
-
->>>>>>> 7188865 (Actualizar dias 2, 5, 7 y 11 y readmes)
